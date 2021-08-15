@@ -1,0 +1,23 @@
+#leaderboard {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  #leaderboard td, #leaderboard th {
+    border: 1px solid rgb(75, 75, 75);
+    padding: 8px;
+  }
+  
+  #leaderboard tr:nth-child(even){background-color: rgb(68, 68, 68);}
+  
+  #leaderboard tr:hover {background-color: rgb(0, 0, 0);}
+  
+  #leaderboard th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }

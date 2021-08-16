@@ -62,7 +62,7 @@ function Table() {
                     <th>Status</th>   
                 </tr>
                 {renderTableData()}
-                </table>
+            </table>
         </div>
     )
 }

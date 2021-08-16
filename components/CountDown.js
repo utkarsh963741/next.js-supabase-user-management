@@ -26,10 +26,10 @@ function CountDown() {
 
     return (
         <>
-        <div class="flex flex-col text-center w-full mb-10">
-            <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">book your kit before its too late</h2>
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white-900">QtPi Robotics Kit Pre-Order</h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">to pre-order sign up with your email and after authentication join the waitlist by making a payment of as low as ₹ 500 or pay the full amount of ₹ 6,000 for confirmed preorder. Incase you don't make it in the final list your payment will be refunded in full.</p>
+        <div className="flex flex-col text-center w-full mb-10">
+            <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">book your kit before its too late</h2>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white-900">QtPi Robotics Kit Pre-Order</h1>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">to pre-order sign up with your email and after authentication join the waitlist by making a payment of as low as ₹ 500 or pay the full amount of ₹ 6,000 for confirmed preorder. Incase you don't make it in the final list your payment will be refunded in full.</p>
         </div>
         <div style={{display:'flex', alignItems:'center', justifyContent:'center', marginBottom:'20px'}}>
             <div style={{display:'flex', flexDirection:'column', alignItems:'center', margin:'0 20px'}}>
